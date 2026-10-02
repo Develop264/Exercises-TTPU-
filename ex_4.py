@@ -1,0 +1,11 @@
+print(f"{'small':<8}{'ASCII':<8}{'Capital':<8}{'ASCII':<8}")
+print("-" * 32)
+
+for i in range(26):
+    small_a= ord('a') + i
+    small_letter = chr(small_a)
+            
+    capital_a= ord('A') + i
+    capital_letter = chr(capital_a)
+                        
+print(f"'{small_letter}'{small_a:>7}     '{capital_letter}'{capital_a:>7}")
